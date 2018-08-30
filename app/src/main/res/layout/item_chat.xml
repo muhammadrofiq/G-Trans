@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="right"
+    android:id="@+id/layoutpesan">
+    <TextView
+        android:id="@+id/userpesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="me"/>
+    <TextView
+        android:id="@+id/isipesan"
+        android:padding="10dp"
+        android:background="@drawable/bg_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ini pesan saya!"/>
+
+</LinearLayout>

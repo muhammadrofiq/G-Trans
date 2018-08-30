@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="350dp"
+    android:orientation="vertical"
+    android:background="@color/rhino"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:id="@+id/btn_x_gantinomor"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="#fff"
+        android:text="X"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="end"
+        android:background="@drawable/cerclwhite"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/wrench"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:text="Settings"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:text="Masukan Nomor Handphone Baru"/>
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/input_kontak_bus"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/phone"
+            android:hint="No handphone"
+            android:textSize="20dp"
+            android:inputType="number"/>
+    </LinearLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:id="@+id/sub_gantinohp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="@color/MatBlue"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="8dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:text="Submit"  />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>

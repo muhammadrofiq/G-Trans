@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="left">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Green trasportation"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#FFF"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:layout_gravity="center">
+            <ImageView
+                android:id="@+id/setting_popup_triger"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/setwhite"
+                android:paddingTop="10dp"
+                android:padding="8dp"
+                android:layout_gravity="right"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

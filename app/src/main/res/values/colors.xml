@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#09a129</color>
+    <color name="colorPrimaryDark">#036d19</color>
+    <color name="Backgroundcol">#f8f4e3</color>
+    <color name="GrayLine">#ededed</color>
+    <color name="MatPurple">#7c4dff</color>
+    <color name="MatYellow">#ffb300</color>
+    <color name="MatGreen">#00bfa5</color>
+    <color name="MatBlue">#3a99d7</color>
+    <color name="pinkacc">#ff4081</color>
+    <color name="WhiteLight">#FBFFFE</color>
+    <color name="DarkBlueacc">#0a2e36</color>
+    <color name="Yellowacc">#FAA916</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="darkexit">#2f333f</color>
+    <color name="darkstroke">#413c58</color>
+    <color name="bublehalte">#fcaf58</color>
+    <color name="rhino">#25292e</color>
+    <color name="red_button">#e42132</color>
+</resources>

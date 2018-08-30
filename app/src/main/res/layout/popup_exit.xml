@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:background="#f6e8ea"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/btn_x_exit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="#413c58"
+        android:text="X"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="end"
+        android:background="@drawable/cerclewht"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/exit"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="Apakan anda yakin ingin keluar ?"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/exit_btnstyle"/>
+
+</LinearLayout>
